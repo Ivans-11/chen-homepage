@@ -2,7 +2,7 @@
 
 This repository is the Minimal Light implementation of Yu Chen's personal homepage.
 
-It is based on [`yaoyao-liu/minimal-light`](https://github.com/yaoyao-liu/minimal-light), keeping the theme's Jekyll layout, Sass styles, sidebar profile, dark-mode support, and YAML-based selected-publication list. The homepage content itself is kept in Markdown files so routine updates do not require editing HTML.
+It is based on [`yaoyao-liu/minimal-light`](https://github.com/yaoyao-liu/minimal-light), keeping the theme's Jekyll layout, Sass styles, sidebar profile, and dark-mode support. The homepage content itself is kept in Markdown files so routine updates do not require editing HTML.
 
 ## Content Files
 
@@ -11,7 +11,6 @@ It is based on [`yaoyao-liu/minimal-light`](https://github.com/yaoyao-liu/minima
 - Teaching: `teaching.md`
 - Students: `students.md`
 - Join/recruiting: `join.md`
-- Selected publications on the homepage: `_data/publications.yml`
 - Site profile, navigation, and metadata: `_config.yml`
 - Small local style overrides: `assets/css/style.scss`
 

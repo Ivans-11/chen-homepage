@@ -53,7 +53,26 @@ If you are interested in doing OS related research and engineering work with me,
 - Book of Embedded System, Excellent Teaching Materials for Beijing Higher Education, 2008.
 - Experimental environment of operating system course, First Prize of Tsinghua University Excellent Teaching Software, 2005.
 
-{% include_relative _includes/publications.md %}
+## Selected Publications
+
+1. **To Isolate, or to Share? That is a Question for Intel SGX**  
+   Youren Shen, **Yu Chen**, Kang Chen, Hongliang Tian, Shoumeng Yan. 9th ACM SIGOPS Asia-Pacific Workshop on Systems (**APSys**), 2018.
+2. **Is It Possible to Automatically Port Kernel Modules?**  
+   Yanjie Zhen, Wei Zhang, Zhenyang Dai, Junjie Mao, **Yu Chen**. 9th ACM SIGOPS Asia-Pacific Workshop on Systems (**APSys**), 2018.
+3. **pbSE: phase-base Symbolic Execution**  
+   Qixue Xiao, **Yu Chen**, Chenggang Wu, Kang Li, Junjie Mao, Shize Guo, Yuanchun Shi. 47th IEEE/IFIP International Conference on Dependable Systems and Networks (**DSN**), 2017.
+4. **RID: Finding Reference Count Bugs with Inconsistent Path Pair Checking**  
+   Junjie Mao, **Yu Chen**, Qixue Xiao, Yuanchun Shi. 21st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (**ASPLOS**), 2016.
+5. **Scalable Kernel TCP Design and Implementation for Short-Lived Connect**  
+   Xiaofeng Lin, **Yu Chen**, Xiaodong Li, Junjie Mao, Wei Xue, Yuanchun Shi. 21st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (**ASPLOS**), 2016.
+6. **Requester-Based Spin Lock: A Scalable and Energy Efficient Locking Scheme on Multicore Systems**  
+   Yan Cui, Yingxin Wang, **Yu Chen**, Yuanchun Shi. IEEE Transactions on Computers, Volume 64, Issue 1, 2015.
+7. **lock-contention-aware scheduler: A scalable and energy-efficient method for addressing scalability collapse on multicore systems**  
+   Yan Cui, Yingxin Wang, **Yu Chen**, Yuanchun Shi. ACM Transactions on Architecture and Code Optimization, 9(4):44, 2013.
+8. **ReNIC: Architectural extension to SR-IOV I/O virtualization for efficient replication**  
+   Yaozu Dong, **Yu Chen**, Zhenhao Pan, Jinquan Dai, Yunhong Jiang. ACM Transactions on Architecture and Code Optimization, 8(4):44, 2012.
+
+[Full publication list]({{ "/publications/" | relative_url }})
 
 ## Projects and Software
 
