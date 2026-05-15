@@ -3,6 +3,37 @@
 
 @import "minimal-light";
 
+@media screen and (min-width: 961px) {
+  body {
+    font-size: 17px;
+    line-height: 1.62;
+  }
+
+  .wrapper {
+    width: 1040px;
+  }
+
+  header {
+    width: 250px;
+  }
+
+  section {
+    width: 720px;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  header position {
+    font-size: 1.15rem !important;
+  }
+
+  email {
+    font-size: 15px;
+  }
+}
+
 .page-nav {
   border-top: 1px solid #e5e8ef;
   display: flex;
@@ -16,7 +47,7 @@
   border-radius: 4px;
   color: #043361;
   display: block;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.35;
   padding: 6px 8px;
 }

@@ -27,8 +27,10 @@ bundle exec jekyll build
 For local preview:
 
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --no-watch
 ```
+
+The `--no-watch` option is intentional for Ruby 3.2. Jekyll 3.8's file-watch path depends on older Ruby keyword-argument behavior and may fail with `no implicit conversion of Hash into Integer` during `jekyll serve`. The normal static build is not affected.
 
 ## GitHub Pages
 
