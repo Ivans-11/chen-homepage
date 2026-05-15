@@ -1,22 +1,42 @@
 main:
+  - title: To Isolate, or to Share? That is a Question for Intel SGX
+    authors: Youren Shen, <strong>Yu Chen</strong>, Kang Chen, Hongliang Tian, Shoumeng Yan
+    conference_short: APSys
+    conference: 9th ACM SIGOPS Asia-Pacific Workshop on Systems <strong>(APSys)</strong>, 2018.
+    notes: Selected
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: Is It Possible to Automatically Port Kernel Modules?
+    authors: Yanjie Zhen, Wei Zhang, Zhenyang Dai, Junjie Mao, <strong>Yu Chen</strong>
+    conference_short: APSys
+    conference: 9th ACM SIGOPS Asia-Pacific Workshop on Systems <strong>(APSys)</strong>, 2018.
+    notes: Selected
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "pbSE: phase-base Symbolic Execution"
+    authors: Qixue Xiao, <strong>Yu Chen</strong>, Chenggang Wu, Kang Li, Junjie Mao, Shize Guo, Yuanchun Shi
+    conference_short: DSN
+    conference: 47th IEEE/IFIP International Conference on Dependable Systems and Networks <strong>(DSN)</strong>, 2017.
+
+  - title: "RID: Finding Reference Count Bugs with Inconsistent Path Pair Checking"
+    authors: Junjie Mao, <strong>Yu Chen</strong>, Qixue Xiao, Yuanchun Shi
+    conference_short: ASPLOS
+    conference: 21st ACM International Conference on Architectural Support for Programming Languages and Operating Systems <strong>(ASPLOS)</strong>, 2016.
+
+  - title: Scalable Kernel TCP Design and Implementation for Short-Lived Connect
+    authors: Xiaofeng Lin, <strong>Yu Chen</strong>, Xiaodong Li, Junjie Mao, Wei Xue, Yuanchun Shi
+    conference_short: ASPLOS
+    conference: 21st ACM International Conference on Architectural Support for Programming Languages and Operating Systems <strong>(ASPLOS)</strong>, 2016.
+
+  - title: "Requester-Based Spin Lock: A Scalable and Energy Efficient Locking Scheme on Multicore Systems"
+    authors: Yan Cui, Yingxin Wang, <strong>Yu Chen</strong>, Yuanchun Shi
+    conference_short: TOC
+    conference: IEEE Transactions on Computers, Volume 64, Issue 1, 2015.
+
+  - title: "lock-contention-aware scheduler: A scalable and energy-efficient method for addressing scalability collapse on multicore systems"
+    authors: Yan Cui, Yingxin Wang, <strong>Yu Chen</strong>, Yuanchun Shi
+    conference_short: TACO
+    conference: ACM Transactions on Architecture and Code Optimization, 9(4):44, 2013.
+
+  - title: "ReNIC: Architectural extension to SR-IOV I/O virtualization for efficient replication"
+    authors: Yaozu Dong, <strong>Yu Chen</strong>, Zhenhao Pan, Jinquan Dai, Yunhong Jiang
+    conference_short: TACO
+    conference: ACM Transactions on Architecture and Code Optimization, 8(4):44, 2012.
