@@ -43,10 +43,12 @@
         <a class="image avatar"><img src="{{ site.avatar | relative_url }}" alt="avatar" /></a>
         {% endif %}
 
-        <h1>{{ site.title }}</h1>
-        {% if site.title_zh %}
-        <div class="name-zh">{{ site.title_zh }}</div>
-        {% endif %}
+        <h1 class="person-name">
+          <span>{{ site.title }}</span>
+          {% if site.title_zh %}
+          <span class="name-zh">{{ site.title_zh }}</span>
+          {% endif %}
+        </h1>
 
         {% if site.position %}
         <position>{{ site.position }}</position>
