@@ -1,36 +1,3 @@
-# Yu Chen Homepage - Minimal Light
+# Yu Chen Homepage
 
-This repository is the Minimal Light implementation of Yu Chen's personal homepage.
-
-It is based on [`yaoyao-liu/minimal-light`](https://github.com/yaoyao-liu/minimal-light), keeping the theme's Jekyll layout, Sass styles, sidebar profile, and dark-mode support. The homepage content itself is kept in Markdown files so routine updates do not require editing HTML.
-
-## Content Files
-
-- Home page: `index.md`
-- Full publications: `publications.md`
-- Teaching: `teaching.md`
-- Students: `students.md`
-- Join/recruiting: `join.md`
-- Site profile, navigation, and metadata: `_config.yml`
-- Small local style overrides: `assets/css/style.scss`
-
-## Local Build
-
-Install dependencies and build the site:
-
-```bash
-bundle install
-bundle exec jekyll build
-```
-
-For local preview:
-
-```bash
-bundle exec jekyll serve --no-watch
-```
-
-The `--no-watch` option is intentional for Ruby 3.2. Jekyll 3.8's file-watch path depends on older Ruby keyword-argument behavior and may fail with `no implicit conversion of Hash into Integer` during `jekyll serve`. The normal static build is not affected.
-
-## GitHub Pages
-
-Publish this repository with GitHub Pages from the repository root. GitHub Pages will run Jekyll and generate the static HTML site automatically.
+Personal homepage for Yu Chen.
