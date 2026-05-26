@@ -2,12 +2,6 @@
 layout: homepage
 ---
 
-## Join Us for Operating System
-
-**Looking for bright students, post-doctorates, interns, and engineers.**
-
-If you are interested in doing OS related research and engineering work with me, please read [Join Us]({{ "/join/" | relative_url }}) before contacting me.
-
 ## Research Interests
 
 - **Operating Systems**: investigating the principles, design, and implementation of operating systems that need high performance and high availability with reduced overhead for emerging storage, networking, and computing architectures.
@@ -17,6 +11,8 @@ If you are interested in doing OS related research and engineering work with me,
 - Operating system vulnerability analysis.
 - Operating system automatic updating.
 
+---
+
 ## Experience
 
 - **Associate Professor**, Department of Computer Science and Technology, Tsinghua University, 2007-present.
@@ -24,12 +20,58 @@ If you are interested in doing OS related research and engineering work with me,
 - **Post-Doctoral**, Department of Computer Science and Technology, Tsinghua University, 2000-2003.
 - **Visiting Scholar**, MIT, 2013.1-2013.7.
 
+---
+
 ## Education
 
 - **Ph.D., Computer Science and Technology**, National University of Defense Technology, Changsha, China, 2000.
   - Thesis topic: Research and Implementation on Optimization for Hierarchical Storage Parallel System.
   - Advisors: Prof. Fujie Chen and Prof. Xuejun Yang.
 - **B.E., Computer Science and Technology**, National University of Defense Technology, Changsha, China, 1997.
+
+---
+
+## Publications
+
+1. **SKernel: An Elastic and Efficient Secure Container System at Scale with a Split-Kernel Architecture**  
+   Xiaohu Chai, Keyang Hu, Jianfeng Tan, Tiwei Bie, Guotao Tan, Tianyu Zhou, Anqi Shen,Xinyao Yang, Xin Chen, Xu Wang, Feng Yu, Zhengyu He, Dong Du, Yubin Xia,Kang Chen, Yu Chen. **EuroSys 2026**.
+
+2. **Fork in the Road:Reflections and Optimizations for Cold Start Latency in Production Serverless Systems**  
+   Xiaohu Chai, Tianyu Zhou, Keyang Hu, Jianfeng Tan, Tiwei Bie, Anqi Shen, Dawei Shen, Qi Xing, Shun Song, Tongkai Yang, Le Gao, Feng Yu, Zhengyu He, Dong Du, Yubin Xia, Kang Chen, and Yu Chen. **OSDI 2025**.
+
+3. **Skyloft: A General High-Efficient Scheduling Framework in User Space**  
+   Yuekai Jia, Kaifu Tian, Yuyang You, Yu Chen, Kang Chen. **SOSP 2024**.
+
+4. **Verifying Rust Implementation of Page Tables in a Software Enclave Hypervisor**  
+   Zhenyang Dai, Shuang Liu, Vilhelm Sjöberg, Xupeng Li, Yu Chen, Wenhao Wang, Yuekai Jia, Sean Noble Anderson, Laila Elbeheiry, Shubham Sondhi, Yu Zhang, Zhaozhong Ni, Shoumeng Yan, Ronghui Gu, Zhengyu He. **ASPLOS 2024**.
+
+5. **PatternS: an intelligent hybrid memory scheduler driven by page pattern recognition**  
+   Yanjie ZHEN, Weining Chen, Wei Gao, Ju Ren, Kang Chen, Yu Chen. **Journal of Systems Architecture 2024**.
+
+6. **A smart hybrid memory scheduling approach using neural models**  
+   Yanjie ZHEN, Huijun Zhang, Yongheng Deng, Weining Chen, Wei Gao, Ju Ren, Yu Chen. **SCIENCE CHINA Information Sciences 2024**.
+
+7. **Intelligent hybrid memory scheduling based on page pattern recognition**  
+   Yanjie ZHEN, Weining Chen, Wei Gao, Ju Ren, Kang Chen, Yu Chen. **DATE 2024**.
+
+[Full publication list]({{ "/publications/" | relative_url }})
+
+---
+
+## Projects
+
+- **2025.11-2028.10** Development and Verification of the Technology Foundation for Industrial Robots, National Science and Technology Major Project.
+- **2024.12-2028.11** Key Technologies for a Fully Domestic Power IoT Operating System with Cloud-Edge-Device Collaboration, National Science and Technology Major Project.
+- **2025.9-2027.9** Research and Application of Key Technologies for Componentized Kernel-Level Virtualization Software, Major Project of Quan Cheng Laboratory.
+- **2023.1-2024.12** Theoretical Foundations, Construction Methods, and Runtime Mechanisms of Secure Operating System Kernels, Key Project of Quan Cheng Laboratory.
+- **2018.1-2021.12** Semantic Defect Analysis of Operating Systems Based on Fine-Grained Differential Comparison, National Natural Science Foundation of China.
+- **2017.7-2020.12** Intelligent Mining System for Software and System Vulnerabilities, National Key R&D Program of China.
+- **2012.10-2016.11** Analysis and Security Evaluation of Open-Source Operating System Kernels, National Science and Technology Major Project for Core Electronic Devices, High-End General-Purpose Chips, and Basic Software Products.
+- **2012.1-2015.12** Key Technologies for Parallel Optimization of Operating Systems on Many-Core Architectures, National Natural Science Foundation of China.
+- **2011.7-2014.12** Smart Home Standards System Based on the Internet of Things, National Key Technologies R&D Program of China.
+- **2009.1-2011.12** Supporting System for Pervasive Computing Environments, National High-Tech R&D Program of China.
+
+---
 
 ## Awards and Honors
 
@@ -45,42 +87,15 @@ If you are interested in doing OS related research and engineering work with me,
 - Book of Embedded System, Excellent Teaching Materials for Beijing Higher Education, 2008.
 - Experimental environment of operating system course, First Prize of Tsinghua University Excellent Teaching Software, 2005.
 
-## Selected Publications
-
-1. **To Isolate, or to Share? That is a Question for Intel SGX**  
-   Youren Shen, **Yu Chen**, Kang Chen, Hongliang Tian, Shoumeng Yan. 9th ACM SIGOPS Asia-Pacific Workshop on Systems (**APSys**), 2018.
-2. **Is It Possible to Automatically Port Kernel Modules?**  
-   Yanjie Zhen, Wei Zhang, Zhenyang Dai, Junjie Mao, **Yu Chen**. 9th ACM SIGOPS Asia-Pacific Workshop on Systems (**APSys**), 2018.
-3. **pbSE: phase-base Symbolic Execution**  
-   Qixue Xiao, **Yu Chen**, Chenggang Wu, Kang Li, Junjie Mao, Shize Guo, Yuanchun Shi. 47th IEEE/IFIP International Conference on Dependable Systems and Networks (**DSN**), 2017.
-4. **RID: Finding Reference Count Bugs with Inconsistent Path Pair Checking**  
-   Junjie Mao, **Yu Chen**, Qixue Xiao, Yuanchun Shi. 21st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (**ASPLOS**), 2016.
-5. **Scalable Kernel TCP Design and Implementation for Short-Lived Connect**  
-   Xiaofeng Lin, **Yu Chen**, Xiaodong Li, Junjie Mao, Wei Xue, Yuanchun Shi. 21st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (**ASPLOS**), 2016.
-6. **Requester-Based Spin Lock: A Scalable and Energy Efficient Locking Scheme on Multicore Systems**  
-   Yan Cui, Yingxin Wang, **Yu Chen**, Yuanchun Shi. IEEE Transactions on Computers, Volume 64, Issue 1, 2015.
-7. **lock-contention-aware scheduler: A scalable and energy-efficient method for addressing scalability collapse on multicore systems**  
-   Yan Cui, Yingxin Wang, **Yu Chen**, Yuanchun Shi. ACM Transactions on Architecture and Code Optimization, 9(4):44, 2013.
-8. **ReNIC: Architectural extension to SR-IOV I/O virtualization for efficient replication**  
-   Yaozu Dong, **Yu Chen**, Zhenhao Pan, Jinquan Dai, Yunhong Jiang. ACM Transactions on Architecture and Code Optimization, 8(4):44, 2012.
-
-[Full publication list]({{ "/publications/" | relative_url }})
-
-## Projects and Software
-
-- **Operating System Labs**: C-based labs running on x86-32. [ucore_os_lab](https://github.com/chyyuu/ucore_os_lab)
-- **Rust-based OS step by step**: Rust-based system running on riscv-32. [rcore_step_by_step](https://github.com/LearningOS/rcore_step_by_step)
-- **uCore Plus**: running on x86/arm/mips/open-risc/riscv. [ucore_plus](https://github.com/chyyuu/ucore_plus)
-- **rCore Plus**: running on x86/arm/riscv. [rcore_plus](https://github.com/oscourse-tsinghua/rcore_plus)
-- **OPENTHOS**: enhanced Android for desktop environment running on x86-64. [OPENTHOS](https://github.com/openthos)
-- **SkyEye**: hardware full-system simulator for Ubuntu, Debian, and other Linux distributions. [SkyEye](http://skyeye.sourceforge.net/wiki/index.php/Main_Page)
-- **CompSC**: virtual machine monitor live migration with pass-through devices, for Xen with Intel 82576/82599 10Gb NICs. [compsc.patch.tar.bz2](http://soft.cs.tsinghua.edu.cn/~chen/compsc.patch.tar.bz2)
+---
 
 ## Professional Activities
 
 - Technical Program Committee Member of the 27th USENIX Symposium on Operating Systems Principles, SOSP 2019.
 - Local Chair of The 13th ACM International Joint Conference on Pervasive and Ubiquitous Computing 2011, Ubicomp 2011.
 - Vice Chair of The 7th IEEE International Conference on Ubiquitous Intelligence and Computing, UIC 2010.
+
+---
 
 ## Selected Books
 
