@@ -5,32 +5,66 @@
 
 @media screen and (min-width: 961px) {
   body {
-    font-size: 17px;
-    line-height: 1.62;
+    font-size: 19px;
+    line-height: 1.68;
   }
 
   .wrapper {
-    width: 1040px;
+    width: 1160px;
   }
 
   header {
-    width: 250px;
+    width: 280px;
   }
 
   section {
-    width: 720px;
+    width: 820px;
   }
 
   header h1 {
-    font-size: 32px;
+    font-size: 40px;
+    margin-bottom: 18px;
   }
 
   header position {
-    font-size: 1.15rem !important;
+    font-size: 1.25rem !important;
+    line-height: 1.45;
   }
 
   email {
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  .image.avatar img {
+    padding: 14px;
+    width: 170px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 8px 0 18px;
+  }
+
+  h3 {
+    font-size: 23px;
+    margin-top: 26px;
+  }
+
+  p,
+  ul,
+  ol,
+  table,
+  pre,
+  dl {
+    margin-bottom: 24px;
+  }
+
+  section li {
+    margin-bottom: 9px;
   }
 }
 
@@ -38,18 +72,18 @@
   border-top: 1px solid #e5e8ef;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  margin: 18px 0 10px;
-  padding-top: 14px;
+  gap: 8px;
+  margin: 22px 0 10px;
+  padding-top: 18px;
 }
 
 .page-nav a {
   border-radius: 4px;
   color: #043361;
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.35;
-  padding: 6px 8px;
+  padding: 8px 10px;
 }
 
 .page-nav a:hover {
