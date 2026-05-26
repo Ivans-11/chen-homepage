@@ -15,7 +15,8 @@ layout: homepage
 
 ## Experience
 
-- **Associate Professor**, Department of Computer Science and Technology, Tsinghua University, 2007-present.
+- **Tenured Associate Professor**, Department of Computer Science and Technology, Tsinghua University, 2019-present.
+- **Associate Professor**, Department of Computer Science and Technology, Tsinghua University, 2007-2019.
 - **Assistant Professor**, Department of Computer Science and Technology, Tsinghua University, 2004-2007.
 - **Post-Doctoral**, Department of Computer Science and Technology, Tsinghua University, 2000-2003.
 - **Visiting Scholar**, MIT, 2013.1-2013.7.
