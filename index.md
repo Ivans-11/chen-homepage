@@ -2,14 +2,6 @@
 layout: homepage
 ---
 
-## About
-
-Yu Chen / 陈渝 is an Associate Professor in the Department of Computer Science and Technology, Tsinghua University.
-
-Room 3-106, FIT Building, Tsinghua University, Beijing, China 100084  
-Phone: (+86) 13911178569  
-Email: [yuchen@tsinghua.edu.cn](mailto:yuchen@tsinghua.edu.cn)
-
 ## Join Us for Operating System
 
 **Looking for bright students, post-doctorates, interns, and engineers.**

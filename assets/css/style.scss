@@ -10,29 +10,30 @@
   }
 
   .wrapper {
-    width: 1160px;
+    width: 1280px;
   }
 
   header {
-    width: 280px;
+    width: 360px;
   }
 
   section {
-    width: 820px;
+    width: 860px;
   }
 
   header h1 {
     font-size: 40px;
+    margin-bottom: 8px;
+  }
+
+  .name-zh {
+    font-size: 26px;
     margin-bottom: 18px;
   }
 
   header position {
     font-size: 1.25rem !important;
     line-height: 1.45;
-  }
-
-  email {
-    font-size: 16px;
   }
 
   .image.avatar img {
@@ -66,6 +67,56 @@
   section li {
     margin-bottom: 9px;
   }
+}
+
+.name-zh {
+  color: #043361;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.affiliation-links {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 16px;
+  line-height: 1.35;
+  margin: 14px 0 18px;
+}
+
+.affiliation-links a {
+  white-space: nowrap;
+}
+
+.contact-list {
+  border-top: 1px solid #e5e8ef;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 18px 0 0;
+  padding-top: 18px;
+  text-align: left;
+}
+
+.contact-item {
+  align-items: flex-start;
+  color: #444;
+  display: flex;
+  font-size: 15px;
+  gap: 10px;
+  line-height: 1.35;
+}
+
+.contact-item i {
+  color: #043361;
+  flex: 0 0 18px;
+  line-height: 1.35;
+  padding-top: 1px;
+  text-align: center;
+}
+
+.contact-item span {
+  overflow-wrap: anywhere;
 }
 
 .page-nav {
@@ -106,6 +157,22 @@ section li {
 }
 
 @media (prefers-color-scheme: dark) {
+  .name-zh {
+    color: rgb(62, 183, 240);
+  }
+
+  .contact-list {
+    border-top-color: #383b46;
+  }
+
+  .contact-item {
+    color: #dadbdf;
+  }
+
+  .contact-item i {
+    color: rgb(62, 183, 240);
+  }
+
   .page-nav {
     border-top-color: #383b46;
   }
@@ -124,6 +191,17 @@ section li {
 }
 
 @media print, screen and (max-width: 960px) {
+  .affiliation-links,
+  .contact-list {
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-item {
+    justify-content: center;
+    max-width: 520px;
+  }
+
   .page-nav {
     align-items: center;
     border-top: 0;
