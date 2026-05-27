@@ -151,6 +151,14 @@
   color: #069;
 }
 
+.lang-switch {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.35;
+  margin: -14px 32px 18px 0;
+  text-align: right;
+}
+
 section > h1:first-child,
 section > h2:first-child {
   margin-top: 0;
@@ -194,6 +202,10 @@ section li {
     background: #252a35;
   }
 
+  .lang-switch {
+    color: #dadbdf;
+  }
+
   .publications .title {
     color: #eeeff0;
   }
@@ -226,5 +238,10 @@ section li {
     justify-content: center;
     margin: 12px 0 0;
     padding-top: 0;
+  }
+
+  .lang-switch {
+    margin: 0 0 16px;
+    text-align: center;
   }
 }

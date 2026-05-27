@@ -1,12 +1,12 @@
 ---
 layout: homepage
-title: Publications
-permalink: /publications/
-lang: en
-alternate_lang_url: /zh/publications/
+title: 论文
+permalink: /zh/publications/
+lang: zh
+alternate_lang_url: /publications/
 ---
 
-# Publications
+# 论文发表
 
 ## 2026
 

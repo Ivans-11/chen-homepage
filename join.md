@@ -2,80 +2,49 @@
 layout: homepage
 title: Join Us
 permalink: /join/
+lang: en
+alternate_lang_url: /zh/join/
 ---
 
 # Join Us
 
-【下面信息长期有效】
+This information remains valid over the long term.
 
-我目前在清华大学计算机系软件所做长聘副教授，且担任清华大学信息技术研究院操作系统与中间件研究中心的副主任，主要做操作系统与普适计算相关的研究和工程课题，需要学生（本校或外校的 Intern、本科、硕士、博士、强军计划研究生等）、博士后和工程师参与，下面是一些大致的方向。
+I am a tenured associate professor at the Department of Computer Science and Technology, Tsinghua University. My research and engineering work focuses on operating systems and pervasive computing. I am looking for students, interns, undergraduate students, master's students, Ph.D. students, postdoctoral researchers, and engineers to join the group.
 
-如果认为自己对操作系统有兴趣和实力，请先完成清华大学计算机系 or 姚班本科生的 OS LAB 1-8，证明自己的能力。
+- AI4OS and OS4AI
+  - Cross-layer co-design across operating systems, models, compilers, and hardware, including Rust, one-way component dependencies, user-level hardware interrupts, unified shared memory, and heterogeneous AI hardware accelerators.
+  - Generative, verifiable, explainable, and rollback-capable operating system abstractions for AI agents, together with engineering constraints for AI and large language models.
+  - Reinforcement-learning-based resource scheduling across CPUs, GPUs, NPUs, memory, and networks.
+  - Intelligent memory management, from page replacement to context and KV-cache management for AI workloads.
+  - Intelligent I/O, file systems, and storage-path optimization.
+  - AI-driven system observability, fault diagnosis, and self-healing operating systems.
+  - AI-enhanced operating system security and reliability, including observable, understandable, diagnosable, and self-healing OS behavior.
+  - Dynamically generated OS management interfaces for intelligent human-machine collaboration.
+  - AI-native memory management, from DRAM pages to KV-cache pages.
+  - Scheduling systems for LLM inference.
+  - AI cluster operating systems, including resource abstractions across GPUs, nodes, and data centers.
+  - Operating system support for AI training systems, including elasticity, fault tolerance, fault resilience, and recoverable execution.
+  - Key technologies for GPU/TPU operating systems for AI accelerators.
+  - Operating system technologies for intelligent robots and embodied intelligence.
+  - Lightweight OS-level AI acceleration for edge and endpoint AI.
+  - Deterministic latency, multi-tenant isolation, and performance acceleration for cloud services and AI inference services.
 
-代码和文档可到：<https://github.com/chyyuu/ucore_pub>
+## Expectations
 
-- 如果在 1 个月内独立完成，我个人认为你对 OS 有超好的理解和实践能力，鼓励直接做 OS 方向的科研！我已知有 2 个同学达到了这个目标。
-- 如果在 2 个月内独立完成，我个人认为你对 OS 有很好的理解和实践能力，鼓励参加做科研型 ucore+ 的大实验！我已知有 >10 个同学达到了这个目标。
-- 如果在 3 个月内独立完成，我个人认为你对 OS 有好的理解和实践能力，祝贺能够掌握 OS 的基本原理和设计实现！我已知有 N 个同学达到了这个目标。
+- Be steady, conscientious, and persistent in research and engineering work.
+- Work well with others, learn from and help one another, and take initiative in learning.
+- Think deeply, investigate problems thoroughly, and be willing to take on challenges.
 
-## 操作系统相关的在研方向
+## Benefits and Support
 
-### 改进科研操作系统 ucore+
+- The work will be based at the Operating Systems Lab of the Department of Computer Science and Technology, Tsinghua University, and at collaborating units of the lab.
+- Engineers, once hired, will sign a labor contract with Tsinghua University. Tsinghua University will handle housing fund, insurance, personnel files, and related matters according to university regulations.
+- Interns will receive subsidies comparable to Tsinghua students at the same degree level. Interns from universities outside Beijing may receive accommodation support.
+- Interns should obtain approval from their current advisors and universities.
+- Graduation thesis topics and appropriate advising can be provided for interns. Interns may also attend relevant Tsinghua courses and academic talks when needed for their thesis work.
+- Joint training can be arranged after reaching consensus with the student's advisor, subject to the requirements of the student's home university.
 
-<https://github.com/chyyuu/ucore_plus>
+## Contact
 
-- 应用支持方向：支持 bionic libc、uclibc、支持 GO/C#/Java 多种语言、支持动态链接库、各种用户态库、Android 支持，支持类似树莓派 Raspberry Pi 的各种嵌入式系统。
-- 可用性方向：内核模块支持、Linux 内核模块支持、重用 Linux Driver，重用 Linux 文件系统、支持多核/SMP，支持系统虚拟化，支持 X86/ARM/MIPS/PowerPC 等 CPU，扩展死锁检测功能。
-- 并行/多核方向：确定性并行特征的 OS 研究、基于消息传递机制的 OS 研究。
-- 可重构方向：可动态重构的灵活 OS 研究。
-
-### 操作系统 & VMM 优化
-
-- 修改 Linux，支持在嵌入式移动终端（比如手机、pad）上的多 Linux/Android 协同存在和运行，这样一个终端可变为多个终端。
-- 修改 Linux 的调度器、内存管理、锁机制、文件系统等，提供 Linux 在 32+ 核上的系统上的 scalability。
-- 修改 Linux Device Driver，能够实现 Device Driver 的网络化。
-- 扩展 KVM/XEN 虚拟机，实现高效的 VMM 级迁移机制，基于系统级虚拟机的高可用性研究。
-- 优化 KVM/XEN 虚拟机的 scalability，解决 LHP 问题，SRIOV 性能优化问题，10Gb/s NIC 性能优化问题等。
-- 研究 OS 的正确性问题（通过 fuzzing or symbol execution）等。
-
-### 模拟器优化
-
-- 基于 S2E 的 bug 分析工具。
-- 基于 LLVM 动态二进制翻译优化的 SkyEye 模拟执行技术。
-- SkyEye 模拟执行的并行加速技术。
-- SkyEye 的时钟周期级的全系统模拟。
-- SkyEye 与 Simics 的互操作。
-
-## 普适计算相关的在研方向
-
-### 普适计算中间件
-
-- OSGi 网络化远程 Service 扩展。
-- OSGi 与 Android 的互操作。
-- OSGi 与 Dot NET 的互操作。
-- 服务合成与优化。
-- 设备互联互通互操作。
-
-### 普适计算应用
-
-- 智能家居系统。
-- 智能社区系统。
-- 数字健康系统。
-
-## 对来参加研究或工程工作的学生和工程师的期望
-
-- 能踏实、认真持之以恒地进行各种工作。
-- 能够与其他人很好地相处，互相学习帮助，主动学习。
-- 勤于思考、能够钻研，愿意迎接挑战。
-
-## 相关待遇
-
-- 工作地点在清华大学 FIT 楼或东主楼。
-- 申请工程师职位的人员一经录用，即和清华大学签订劳务合同，由清华大学按照相关规定负责办理公积金、保险、档案等事宜。
-- 实习生和本校同等学历学生同等补贴待遇，外地学校实习生享有住宿补贴。
-- 实习生目前的导师和学校应同意学生本人的实习工作。
-- 可为实习生提供毕业论文题目和适当指导，并将为完成论文提供旁听清华大学相关课程/学术报告的便利。
-
-## 联系方式
-
-PDF 版简历发送：直接给我 [yuchen@tsinghua.edu.cn](mailto:yuchen@tsinghua.edu.cn) 或 [chyyuu@gmail.com](mailto:chyyuu@gmail.com)，标题请注明“应聘陈渝老师课题组某职位”。
+Please send your CV in PDF format directly to [yuchen@tsinghua.edu.cn](mailto:yuchen@tsinghua.edu.cn). Use the subject line "Application to Professor Yu Chen's Operating Systems Lab".

@@ -2,6 +2,8 @@
 layout: homepage
 title: Teaching
 permalink: /teaching/
+lang: en
+alternate_lang_url: /zh/teaching/
 ---
 
 # Teaching

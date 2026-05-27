@@ -1,5 +1,10 @@
 ---
 layout: homepage
+title: Home
+permalink: /
+lang: en
+alternate_lang_url: /zh/
+show_contact: true
 ---
 
 ## Research Interests

@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+{% assign is_zh = false %}
+{% if page.lang == "zh" %}
+{% assign is_zh = true %}
+{% endif %}
+<html lang="{% if is_zh %}zh-CN{% else %}en-US{% endif %}">
   <head>
-    <title>{{ site.title }} | {{ site.department }}, {{ site.university }}</title>
+    <title>{{ page.title | default: site.title }} | {% if is_zh %}{{ site.department_zh }}，{{ site.university_zh }}{% else %}{{ site.department }}, {{ site.university }}{% endif %}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,28 +44,47 @@
         {% endif %}
 
         <h1 class="person-name">
+          {% if is_zh and site.title_zh %}
+          <span class="name-zh">{{ site.title_zh }}</span>
+          <span>{{ site.title }}</span>
+          {% else %}
           <span>{{ site.title }}</span>
           {% if site.title_zh %}
           <span class="name-zh">{{ site.title_zh }}</span>
           {% endif %}
+          {% endif %}
         </h1>
 
         {% if site.position %}
-        <position>{{ site.position }}</position>
+        <position>{% if is_zh %}{{ site.position_zh }}{% else %}{{ site.position }}{% endif %}</position>
         {% endif %}
 
         <div class="affiliation-links">
+        {% if is_zh %}
+        {% if site.university %}
+        <a href="{{ site.university_link }}" rel="noopener"><autocolor>{{ site.university_zh }}</autocolor></a>
+        {% endif %}
+        {% if site.department %}
+        <a href="{{ site.department_link }}" rel="noopener"><autocolor>{{ site.department_zh }}</autocolor></a>
+        {% endif %}
+        {% else %}
         {% if site.department %}
         <a href="{{ site.department_link }}" rel="noopener"><autocolor>{{ site.department }}</autocolor></a>
         {% endif %}
         {% if site.university %}
         <a href="{{ site.university_link }}" rel="noopener"><autocolor>{{ site.university }}</autocolor></a>
         {% endif %}
+        {% endif %}
         </div>
 
-        {% if site.nav %}
+        {% if is_zh %}
+          {% assign nav_items = site.nav_zh %}
+        {% else %}
+          {% assign nav_items = site.nav_en %}
+        {% endif %}
+        {% if nav_items %}
         <nav class="page-nav" aria-label="Main navigation">
-          {% for item in site.nav %}
+          {% for item in nav_items %}
           <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {% endfor %}
         </nav>
@@ -71,7 +94,17 @@
       </header>
       <section>
 
-      {% if page.url == "/" %}
+      {% if page.alternate_lang_url %}
+      <div class="lang-switch">
+        {% if is_zh %}
+        <a href="{{ page.alternate_lang_url | relative_url }}">English</a> | 中文
+        {% else %}
+        English | <a href="{{ page.alternate_lang_url | relative_url }}">中文</a>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      {% if page.show_contact %}
       <div class="main-contact" aria-label="Contact information">
         {% if site.email %}
         <a class="contact-item" href="mailto:{{ site.email }}">
@@ -94,7 +127,7 @@
         {% if site.address %}
         <div class="contact-item contact-address">
           <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-          <span>{{ site.address }}</span>
+          <span>{% if is_zh %}{{ site.address_zh }}{% else %}{{ site.address }}{% endif %}</span>
         </div>
         {% endif %}
       </div>

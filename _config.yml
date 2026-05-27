@@ -2,13 +2,17 @@
 title: Yu Chen
 title_zh: 陈渝
 position: Tenured Associate Professor
+position_zh: 长聘副教授
 department: Department of Computer Science and Technology
+department_zh: 计算机科学与技术系
 department_link: https://www.cs.tsinghua.edu.cn/
 university: Tsinghua University
+university_zh: 清华大学
 university_link: https://www.tsinghua.edu.cn/
 email: yuchen@tsinghua.edu.cn
 phone: (+86) 13911178569
 address: Room 915, Building 1, Ziqiang Technology Building, Tsinghua University, Beijing 100084, China.
+address_zh: 北京市清华大学自强科技楼 1 号楼 915 室，100084
 
 # Search Engine Optimization
 keywords: Yu Chen, 陈渝, operating systems, Tsinghua University, system software
@@ -33,8 +37,8 @@ font: "Sans Serif"
 # Google Analytics ID
 google_analytics:
 
-# Navigation links added for this homepage.
-nav:
+# Navigation links.
+nav_en:
   - title: Home
     url: /
   - title: Publications
@@ -43,6 +47,15 @@ nav:
     url: /teaching/
   - title: Join
     url: /join/
+nav_zh:
+  - title: 首页
+    url: /zh/
+  - title: 论文
+    url: /zh/publications/
+  - title: 教学
+    url: /zh/teaching/
+  - title: 招生
+    url: /zh/join/
 
 # The following files will be removed from the generated website.
 exclude:
