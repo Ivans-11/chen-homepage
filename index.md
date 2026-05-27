@@ -23,17 +23,16 @@ show_contact: true
 - **Tenured Associate Professor**, Department of Computer Science and Technology, Tsinghua University, 2019-present.
 - **Associate Professor**, Department of Computer Science and Technology, Tsinghua University, 2007-2019.
 - **Assistant Professor**, Department of Computer Science and Technology, Tsinghua University, 2004-2007.
+- **Visiting Scholar**, PDOS group, CSAIL MIT, 2013.
 - **Post-Doctoral**, Department of Computer Science and Technology, Tsinghua University, 2000-2003.
-- **Visiting Scholar**, MIT, 2013.1-2013.7.
 
 ---
 
 ## Education
 
 - **Ph.D., Computer Science and Technology**, National University of Defense Technology, Changsha, China, 2000.
-  - Thesis topic: Research and Implementation on Optimization for Hierarchical Storage Parallel System.
-  - Advisors: Prof. Fujie Chen and Prof. Xuejun Yang.
-- **B.E., Computer Science and Technology**, National University of Defense Technology, Changsha, China, 1997.
+- **M.S., Computer Science and Technology**, National University of Defense Technology, Changsha, China, 1997.
+- **B.E., Computer Science and Technology**, National University of Defense Technology, Changsha, China, 1993.
 
 ---
 
@@ -85,9 +84,13 @@ show_contact: true
 
 - Key Technologies and Applications of Pervasive Computing Hardware and Software, Second Prize of National Prize for Progress in Science and Technology, State Department of China, 2015.
 - Pervasive Computing Key Technologies and Supporting Platforms, First Prize of Technological Invention, Chinese Institute of Electronics, 2014.
-
+- Three other provincial/ministerial level awards related to operating systems/system softwares (2016~current)
+ 
 ### Education
 
+- System Capability Pioneer Award, The 10th National Forum on System Capability for Computer Majors in Higher Education Institutions, China, 2026 
+- Outstanding Teacher of the Ministry of Education-Huawei “Intelligent Base” Program, China, 2023
+- Outstanding Teacher of Computer Science in Higher Education Institutions, China, 2019 
 - Course of Operating Systems, Excellent Courses of MOOC Alliance for Computer Education in Chinese Universities, China, 2018.
 - Course of Operating Systems, Excellent Course of Tsinghua, Tsinghua University, 2018, 2013, 2008.
 - Book of Embedded System, Excellent Teaching Materials for Beijing Higher Education, 2008.
@@ -97,6 +100,7 @@ show_contact: true
 
 ## Professional Activities
 
+- Technical Program Committee Member of 2023 USENIX Annual Technical Conference, USENIX ATC 2023. 
 - Technical Program Committee Member of the 27th USENIX Symposium on Operating Systems Principles, SOSP 2019.
 - Local Chair of The 13th ACM International Joint Conference on Pervasive and Ubiquitous Computing 2011, Ubicomp 2011.
 - Vice Chair of The 7th IEEE International Conference on Ubiquitous Intelligence and Computing, UIC 2010.
